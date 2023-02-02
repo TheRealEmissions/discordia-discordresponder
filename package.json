@@ -20,6 +20,7 @@
     "@tsconfig/node18": "^1.0.1"
   },
   "dependencies": {
+    "discord.js": "^14.7.1",
     "ts-modular-bot-addon-command_handler-types": "github:therealemissions/ts-modular-bot-addon-command_handler-types",
     "ts-modular-bot-addon-discord_client-types": "github:therealemissions/ts-modular-bot-addon-discord_client-types",
     "ts-modular-bot-addon-events-types": "github:therealemissions/ts-modular-bot-addon-events-types",
