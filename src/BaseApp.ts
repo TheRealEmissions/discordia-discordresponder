@@ -1,9 +1,9 @@
-import { HeadFile } from "ts-modular-bot-file-design";
+import Base from "ts-modular-bot-file-design";
 import { Dependencies, Dependency } from "ts-modular-bot-types";
 import Events from "ts-modular-bot-addon-events-types";
 import DiscordClient from "ts-modular-bot-addon-discord_client-types";
 
-abstract class BaseApp extends HeadFile {
+abstract class BaseApp extends Base {
   constructor() {
     super();
   }
@@ -18,7 +18,7 @@ abstract class BaseApp extends HeadFile {
   @Dependencies.inject(Dependency.DISCORD_CLIENT)
   static DiscordClient: typeof DiscordClient;
 
-  abstract init(): void;
+  abstract init(): Promise<void>;
 
   getDependencies(): Dependency[] {
     return [Dependency.EVENTS, Dependency.DISCORD_CLIENT];
