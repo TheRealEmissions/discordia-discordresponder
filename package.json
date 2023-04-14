@@ -26,5 +26,7 @@
     "ts-modular-bot-addon-events-types": "github:therealemissions/ts-modular-bot-addon-events-types",
     "ts-modular-bot-file-design": "github:therealemissions/ts-modular-bot-file-design",
     "ts-modular-bot-types": "github:therealemissions/ts-modular-bot-types"
-  }
+  },
+  "type": "module",
+  "types": "types/discord-responder/index.d.ts"
 }
