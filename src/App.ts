@@ -178,18 +178,7 @@ class App extends BaseApp {
         content: embed && embed.content ? embed.content : content,
         files: attachments,
       });
-    } else if (
-      [
-        ButtonInteraction,
-        StringSelectMenuInteraction,
-        CommandInteraction,
-        RoleSelectMenuInteraction,
-        ChannelSelectMenuInteraction,
-        UserSelectMenuInteraction,
-        MentionableSelectMenuInteraction,
-        ModalSubmitInteraction,
-      ].some((x) => location instanceof x)
-    ) {
+    } else {
       location = location as
         | ButtonInteraction
         | StringSelectMenuInteraction
