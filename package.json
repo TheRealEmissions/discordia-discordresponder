@@ -21,12 +21,12 @@
     "@tsconfig/node18": "^1.0.1"
   },
   "dependencies": {
+    "ada-types": "github:therealemissions/ada-types",
     "discord.js": "^14.7.1",
     "ts-modular-bot-addon-command_handler-types": "github:therealemissions/ts-modular-bot-addon-command_handler-types",
     "ts-modular-bot-addon-discord_client-types": "github:therealemissions/ts-modular-bot-addon-discord_client-types",
     "ts-modular-bot-addon-events-types": "github:therealemissions/ts-modular-bot-addon-events-types",
-    "ts-modular-bot-file-design": "github:therealemissions/ts-modular-bot-file-design",
-    "ts-modular-bot-types": "github:therealemissions/ts-modular-bot-types"
+    "ts-modular-bot-file-design": "github:therealemissions/ts-modular-bot-file-design"
   },
   "type": "module",
   "types": "types/discord-responder/index.d.ts"
