@@ -22,9 +22,9 @@
   },
   "dependencies": {
     "ada-commandhandler-types": "github:therealemissions/discordia-generalcommands-types#ada",
+    "ada-discordclient-types": "github:therealemissions/discordia-discordclient-types#ada",
     "ada-types": "github:therealemissions/ada-types",
     "discord.js": "^14.7.1",
-    "ts-modular-bot-addon-discord_client-types": "github:therealemissions/ts-modular-bot-addon-discord_client-types",
     "ts-modular-bot-addon-events-types": "github:therealemissions/ts-modular-bot-addon-events-types",
     "ts-modular-bot-file-design": "github:therealemissions/ts-modular-bot-file-design"
   },
