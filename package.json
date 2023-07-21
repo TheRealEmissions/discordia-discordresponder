@@ -25,9 +25,9 @@
     "ada-commandhandler-types": "github:therealemissions/discordia-generalcommands-types#ada",
     "ada-discordclient-types": "github:therealemissions/discordia-discordclient-types#ada",
     "ada-events-types": "github:therealemissions/discordia-events-types#ada",
+    "ada-file-design": "github:therealemissions/ada-file-design",
     "ada-types": "github:therealemissions/ada-types",
-    "discord.js": "^14.7.1",
-    "ts-modular-bot-file-design": "github:therealemissions/ts-modular-bot-file-design"
+    "discord.js": "^14.7.1"
   },
   "type": "module",
   "types": "types/discord-responder/index.d.ts"

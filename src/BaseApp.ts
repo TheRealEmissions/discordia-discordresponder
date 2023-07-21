@@ -1,4 +1,4 @@
-import Base from "ts-modular-bot-file-design";
+import Base from "ada-file-design";
 import { Dependencies, Dependency } from "ada-types";
 import Events from "ada-events-types";
 import DiscordClient from "ada-discordclient-types";
@@ -14,9 +14,15 @@ abstract class BaseApp extends Base {
 
   @Dependencies.inject(Dependency.EVENTS)
   static Events: typeof Events;
+  public getEvents() {
+    return BaseApp.Events;
+  }
 
   @Dependencies.inject(Dependency.DISCORD_CLIENT)
   static DiscordClient: typeof DiscordClient;
+  public getDiscordClient() {
+    return BaseApp.DiscordClient;
+  }
 
   abstract init(): Promise<void>;
 
